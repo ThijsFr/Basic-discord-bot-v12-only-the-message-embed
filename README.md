@@ -1,4 +1,4 @@
-# MessageEmbed-
+Discord bot! (discord.js v12)
 This is the code for an message embed. You are probably here because off the link in the readme in the basic discord bot. Good luck with your journey to a cool discord bot!
 
 
