@@ -1,0 +1,20 @@
+//at the top of the replit file. Add:
+
+const { MessageEmbed } = require('discord.js');
+
+//then paste this code.
+
+
+client.on('message', message =>{
+  const member = message.guild.member
+  if(message.content === prefix + 'Reply command using embed!'){
+    const infoEmbed = new MessageEmbed()
+      .setColor('')
+      .setAuthor('This is what your bot replies') 
+
+
+    message.channel.send(infoEmbed);
+
+  }
+  
+});
